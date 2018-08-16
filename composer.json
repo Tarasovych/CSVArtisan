@@ -1,0 +1,34 @@
+{
+    "name": "tarasovych/csvartisan",
+    "description": "Package for working with CSV files",
+    "keywords": ["laravel", "csv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tarasovych",
+            "email": "tarasovych.ua@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tarasovych\\CSVArtisan": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tarasovych\\CSVArtisan\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tarasovych\\CSVArtisan\\CSVArtisanServiceProvider"
+            ]
+        }
+    }
+}
