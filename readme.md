@@ -12,5 +12,5 @@ Note, that csv file name must be UTF-8 latin.
 CSV file must have appropriate headers.  
 E. g. if your model you want import to has `name` and `email` fillable fields, your csv file must have "name,email" at the header row.  
 [CSV example](sample.csv).
-2. Execute `php artisan csv:import`
+2. Execute `php artisan csv:import`.
 3. Guide the dialog.
