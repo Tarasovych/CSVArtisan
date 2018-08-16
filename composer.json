@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tarasovych\\CSVArtisan": "src/"
+            "Tarasovych\\CSVArtisan\\": "src/"
         }
     },
     "autoload-dev": {
