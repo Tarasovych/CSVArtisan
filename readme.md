@@ -1,6 +1,6 @@
 # Installation
 
-`composer require tarasovych/csvartisan`  
+`composer require "tarasovych/csvartisan @dev"`  
 Package has [discovery feature](https://laravel.com/docs/5.5/packages#package-discovery).
 
 # Usage
