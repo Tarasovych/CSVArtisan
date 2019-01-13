@@ -173,7 +173,7 @@ final class CSVImport extends Command
                     exit;
                 }
             }
-            $this->confirm('Model and CSV are ok. Fields to be imported: ' . implode(', ', $this->CSVHeaders) . '. Go?');
+            $this->confirm('Model and CSV are ok. Fields to be imported: ' . implode(', ', $this->CSVHeaders) . '. Proceed?');
         }
     }
 
